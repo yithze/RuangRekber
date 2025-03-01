@@ -4,8 +4,8 @@ import { IBenefit } from "@/types";
 
 export const benefits: IBenefit[] = [
     {
-        title: "Escrow Terpercaya",
-        description: "Ruang Rekber memastikan transaksi yang aman dengan menahan dana sementara hingga proses selesai.",
+        title: "Keamanan & Biaya Transparan",
+        description: "Ruang Rekber memastikan transaksi yang aman. Selain itu, biaya transaksi jelas dan transparan.",
         bullets: [
             {
                 title: "Dana Ditahan Sementara",
@@ -21,6 +21,16 @@ export const benefits: IBenefit[] = [
                 title: "Transaksi yang Adil",
                 description: "Rekber sebagai perantara untuk memastikan kesepakatan berjalan dengan baik.",
                 icon: <FiShield size={26} />
+            },
+            {
+                title: "Biaya Transaksi Jelas",
+                description: "Biaya transaksi adalah 1% dari total nominal transaksi. Jika 1% dari transaksi kurang dari Rp5.000, maka biaya yang dikenakan adalah Rp5.000.",
+                icon: <FiCheckCircle size={26} />
+            },
+            {
+                title: "Contoh Perhitungan",
+                description: "Jika transaksi Rp200.000, biaya 1% adalah Rp2.000, sehingga yang dikenakan tetap Rp5.000. Jika transaksi Rp1.000.000, biaya 1% adalah Rp10.000, sehingga yang dikenakan Rp10.000.",
+                icon: <FiCheckCircle size={26} />
             }
         ],
         imageSrc: "/images/Verified.png"
@@ -70,3 +80,4 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/Warning.png"
     }
 ];
+

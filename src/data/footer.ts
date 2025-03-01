@@ -18,13 +18,13 @@ export const footerDetails: {
             url: "#process"
         }
     ],
-    email: 'ruangrekber@gmail.com',
-    telephone: '+627xxxxxxxx',
+    email: 'myfrizqi@gmail.com',
+    telephone: '+6282234403839',
     socials: {
-        x: 'https://twitter.com/x',
-        facebook: 'https://facebook.com',
-        youtube: 'https://youtube.com',
-        threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        // x: 'https://twitter.com/x',
+        // facebook: 'https://facebook.com',
+        // youtube: 'https://youtube.com',
+        // threads: 'https://www.threads.net',
+        // instagram: 'https://www.instagram.com',
     }
 }
