@@ -15,6 +15,7 @@ const HomePage: React.FC = () => {
       <Logos />
       <Container>
 
+        <Benefits />
         <Section
           id="process"
           title="Process"
@@ -22,7 +23,6 @@ const HomePage: React.FC = () => {
         >
           <Process />
         </Section>
-        <Benefits />
 
         <FAQ />
 

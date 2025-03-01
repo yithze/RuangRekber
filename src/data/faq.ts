@@ -21,6 +21,10 @@ export const faqs: IFAQ[] = [
     {
         question: 'Bagaimana jika terjadi sengketa dalam transaksi?',
         answer: 'Jika ada masalah, admin Ruang Rekber akan bertindak sebagai mediator untuk mencari solusi terbaik bagi kedua belah pihak. Semua transaksi terdokumentasi untuk transparansi.',
+    },
+    {
+        question: 'Berapa biaya transaksi di Ruang Rekber?',
+        answer: 'Biaya transaksi adalah 1% dari total nominal transaksi. Namun, jika 1% dari transaksi kurang dari Rp5.000, maka biaya yang dikenakan adalah Rp5.000. Contoh: jika transaksi Rp200.000, biaya 1% adalah Rp2.000, sehingga yang dikenakan tetap Rp5.000. Jika transaksi Rp1.000.000, biaya 1% adalah Rp10.000, sehingga yang dikenakan Rp10.000.',
     }
 ];
 
