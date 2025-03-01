@@ -2,7 +2,7 @@ export const siteDetails = {
     siteName: 'Ruang Rekber',
     siteUrl: '',
     metadata: {
-        title: 'Ruang Rekber Title/Description',
+        title: 'Ruang Rekber',
         description: '',
     },
     language: 'en-us',
